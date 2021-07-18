@@ -1,0 +1,21 @@
+/var/lib/docker/volumes/1047d9f846aabc7ebf7bd10b67035536056ae2a8c95cc56273c2e3c9433a2516/_data
+
+"172.17.0.2
+
+I am currently working for Assemblage from last 6 years as this is an animation company so we have a multiple clients based on the requiremnets we use multiple software for tracking the productivity.
+as for multiple softwares we need a multiple servers so i use docker to a very huge extent for the projects. i responsible for converting all application into conatiner base applications.
+As i develop HR-connect using database and apache link on it, I develop atom-server base on ngnix for tracking the productivity, FTP servers, Samba, Licenssing server.
+This entire dev environment i have setup using docker-compose.
+also for the developer team i have setup GIT-server for checkin the code into GIT and i created Jenkins pipeline jobs to download the code buid the code and deploy into testing server and after its tested Jenkins will take fro the concern delivery team and deploy into the prod servers.
+Our sprint are generally schedule for once in every 3to4 weeks and during those time i have to take care of the entire CI-CD flow.
+since setting up such a huge environment is difficult intially our organization is dependent on a cloud service provider called SOS-LAB.
+Since this was very expensive so i did a little POC to check if we can use docker and we are able to run the entire environment using docker container on one single server.
+I am aslo involed in create customize docker images using docker file i had the apportunity to use both docker swarm and kubernettes at the level of prod environment and i was responible for creating the required kubernetties def file.
+and performaing container orchestrasion.
+Our applications are running on 600 system and for configuring this server remotely its handled by me using Ansible.
+I design the ansible playbooks and roles and i have remotely configured applications using ansible playbooks.
+I also integrated dovker and kubernettes with ansible so that entire setup can be triggered remotely using ansible playbooks.
+As when we have a dead line we use cloud in that cloud i make some instances and and that instance are located at Vergenia and configuring this servers are handled by me.
+I have created AMI image, autoscalling, IAM users, VPC to prevent this from DDOS i have use WAF (Web Application Firewall) and to automating this infrastructure creation i used teraform.
+Also i created Python script for automating some challenges. 
+And to montor this servers i use Nagios and later on Prometheus using Grafana and loki server.
